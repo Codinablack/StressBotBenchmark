@@ -15,13 +15,13 @@ namespace StressBotBenchmark
         public int BurstSize { get; set; } = 20;
         public double BurstPauseMs { get; set; } = 300;
         
-        public double WalkIntervalMs { get; set; } = 1500;
+        public double WalkIntervalMs { get; set; } = 500;
         public double ChatIntervalMs { get; set; } = 5000;
         public double SpellIntervalMs { get; set; } = 5000;
         public double AttackScanIntervalMs { get; set; } = 800;
         
         public string SpellText { get; set; } = "exevo gran mas flam";
-        public bool EnableRandomWalk { get; set; } = false;
+        public bool EnableRandomWalk { get; set; } = true;
         public bool EnableChat { get; set; } = false;
         public bool EnableSpell { get; set; } = true;
         public bool EnableAttack { get; set; } = true;
